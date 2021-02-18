@@ -1,0 +1,32 @@
+.button-container {
+  margin: 20px;
+}
+
+.button {
+  background-color: cornflowerblue;
+  border-radius: 4px;
+  border: unset;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin: 0 20px;
+  outline: none;
+  padding: 20px;
+  text-transform: uppercase;
+  width: 200px;
+}
+
+.button:hover {
+  background-color:skyblue;
+  color: midnightblue;
+  cursor: pointer;
+}
+
+.button.disabled {
+  background-color: #c1c1c1;
+  box-shadow: unset;
+  color: #f9f9f9;
+  cursor: default;
+}
